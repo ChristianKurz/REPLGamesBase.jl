@@ -1,4 +1,4 @@
-module TerminalGraphics
+module REPLGamesBase
 
 using Crayons, REPL
 export rawmode, clear_screen, readKey, put, terminal_screen
