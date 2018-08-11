@@ -13,7 +13,7 @@ function enableRawMode()
         REPL.Terminals.raw!(terminal, true)
         return true
     catch err
-        warn("TerminalMenus: Unable to enter raw mode: $err")
+        @warn "TerminalMenus: Unable to enter raw mode: $err"
     end
     return false
 end
@@ -23,7 +23,7 @@ function disableRawMode()
         REPL.Terminals.raw!(terminal, false)
         return true
     catch err
-        warn("TerminalMenus: Unable to disable raw mode: $err")
+        @warn "TerminalMenus: Unable to disable raw mode: $err"
     end
     return false
 end
