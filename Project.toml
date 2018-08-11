@@ -1,6 +1,8 @@
-authors = ["Christian Kurz <chrissikurz@gmail.com>"]
 name = "REPLGamesBase"
 uuid = "061b77f0-9d53-11e8-11f4-7df760718934"
+authors = ["Christian Kurz <chrissikurz@gmail.com>"]
 version = "0.1.0"
 
 [deps]
+Crayons = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
+REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
